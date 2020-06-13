@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JatimPark2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/jp2"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jatim Park adalah sebuah tempat rekreasi dan taman belajar yang terdapat di Kota Batu, Jawa Timur. Objek wisata ini berada sekitar 20 km barat Kota Malang, dan kini menjadi salah satu icon wisata Jawa Timur. Objek wisata ini memiliki 36 wahana, di antaranya kolam renang raksasa (dengan latar belakang patung Ken Dedes, Ken Arok, dan Mpu Gandring), spinning coaster, dan drop zone. Wahana pendidikan yang menjadi pusat perhatian di antaranya adalah Volcano dan Galeri Nusantara yang juga terdapat tanaman agro, diorama binatang langka, dan miniatur candi-candi. Jatim Park 1 beralamat di Jalan Kartika no. 2, yang berdekatan dengan Klub Bunga.  "
+            android:textSize="15sp"
+            android:textStyle=""
+            android:layout_margin="10dp"
+            android:textColor="@color/tonas"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Jatim Park 1 dinobatkan sebagai juara 1 katerogi wisata buatan berskala besar tingkat nasional yang dianugerahkan Menteri Pariwisata dan Ekonomi Kreatif, Mari Elka Pangestu, Jumat (27/9/2013), di Jakarta. “Saya tidak menyangka Kota Wisata Batu sedemikian indah. Kita tidak perlu ke Disneyland, Ancol, cukup disini (Batu, Red),” kata Mari Elka Pengestu di Klub Bunga dalam acara Galadinner bersama Muspida Malang Raya, Rabu (2/5/2013).  "
+            android:textSize="15sp"
+            android:textStyle=""
+            android:layout_margin="10dp"
+            android:textColor="@color/tonas"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Sedikit berbeda dengan Jatim park 1 yang lebih ditujukan sebagai taman bermain dan hiburan, Jatim Park 2 lebih menunjukan tempat belajar selain tempat bermain. Jatim Park 2 mengusung konsep belajar ilmu alam, biologi dan pembelajaran satwa yang disajikan dengan latar belakang sesuai habitatnya. Jawa Timur Park 2 dibangun di wilayah malang Jatim Park 2 terdiri dari Museum Satwa, Batu Secret Zoo dan Pohon Inn Hotel. Harga tiket untuk Jatim Park 2 sendiri berkisar antara Rp 91.000 pada hari Senin-Kamis dan Rp 120.000 pada hari Jumat-Minggu. Jatim Park 2 beralamat di jl. Oro Oro Ombo no.9, yang berdekatan dengan Eco Green Park, Batu Night Spectacular."
+            android:textSize="15sp"
+            android:textStyle=""
+            android:layout_margin="10dp"
+            android:textColor="@color/tonas"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TIKET"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorPrimary"/>
+
+        <ImageView
+            android:onClick="pass"
+            android:id="@+id/tiket"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/ticket"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bns">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/bns"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Batu Night Spectacular (BNS) adalah sebuah lokawisata yang berada di Kota Batu, Jawa Timur. BNS hanya beroperasi pada malam hari. BNS menggabungkan konsep pusat perbelanjaan, permainan, olahraga, dan hiburan di dalamnya. BNS berada dalam grup Jatim Park Group.
+
+BNS memiliki sebuah arena penampilan multimedia dengan panjang layar 50 meter yang diklaim sebagai yang terpanjang di Indonesia. Wahana
+Pintu Masuk BNS
+Lampion Garden BNS  "
+            android:textSize="15sp"
+            android:textStyle=""
+            android:layout_margin="10dp"
+            android:textColor="@color/tonas"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Beberapa wahana yang tersedia di BNS antara lain:
+
+    Night Market
+    Food Court
+    Spectacular Show (Laser Show, Air Mancur Menari, Multimedia Show dengan panjang layar 50 meter)
+    Panggung Hiburan dengan sajian live music kesenian nusantara setiap harinya
+    Lampion Garden
+    Bioskop 4 Dimensi
+    Rumah Hantu
+    Berburu Hantu
+    Rumah Kaca
+    Karaoke Keluarga
+    Game Room
+    Go Kart
+    Battle Area
+    Sirkuit Drag Race, Road Race dan Slalom yang dilengkapi dengan Tribun penonton
+    Monopoli
+    Dim Sum Malang
+
+Singing Fountain di BNS
+
+BNS juga memiliki berbagai permainan karnival, antara lain:
+
+    Sepeda Udara
+    Disco Bumper Car
+    Kursi Terbang
+    Marry Go Round
+    Ali Baba
+    Mini Boom-Boom Car
+    Mini Train
+    Rumah Kaca
+    Rodeo
+    Sepeda Gila
+    Trampoline
+    Playground
+    Fun House
+    Gravitron (Baru)
+    Laser Mission (Baru)
+    Trick Art Gallery (Baru)
+    Joy Land (Baru)
+    Jump Around (Baru)
+    Monkey Jump (Baru)
+    Baby Wheel (Baru)
+    Rockin’ Tug (Baru)
+    Mega Mix (Baru)  "
+            android:textSize="15sp"
+            android:textStyle=""
+            android:layout_margin="10dp"
+            android:textColor="@color/tonas"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TIKET"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorPrimary"/>
+
+        <ImageView
+            android:onClick="pass"
+            android:id="@+id/tiket"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/ticket"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

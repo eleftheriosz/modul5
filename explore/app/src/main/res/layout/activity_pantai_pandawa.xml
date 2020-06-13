@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PantaiPandawa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/pantai_pandawa"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Pantai Pandawa adalah salah satu kawasan wisata di area Kuta selatan, Kabupaten Badung, Bali. Pantai ini terletak di balik perbukitan dan sering disebut sebagai Pantai Rahasia (Secret Beach). Di sekitar pantai ini terdapat dua tebing yang sangat besar yang pada salah satu sisinya dipahat lima patung Pandawa[1] dan Kunti. Keenam patung tersebut secarara berurutan (dari posisi tertinggi) diberi penejasan nama Dewi Kunti, Dharma Wangsa, Bima, Arjuna, Nakula, dan Sadewa.  "
+            android:textSize="15sp"
+            android:textStyle=""
+            android:layout_margin="10dp"
+            android:textColor="@color/tonas"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Selain untuk tujuan wisata dan olahraga air, pantai ini juga dimanfaatkan untuk budidaya rumput laut karena kontur pantai yang landai dan ombak yang tidak sampai ke garis pantai. Cukup banyak wisatawan yang melakukan paralayang dari Bukit Timbis hingga ke Pantai Pandawa.  "
+            android:textSize="15sp"
+            android:textStyle=""
+            android:layout_margin="10dp"
+            android:textColor="@color/tonas"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TIKET"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorPrimary"/>
+
+        <ImageView
+            android:onClick="pass"
+            android:id="@+id/tiket"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/ticket">
+
+        </ImageView>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

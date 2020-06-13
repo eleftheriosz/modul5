@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bottomnavigation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_kapal"
+        android:label="Explore Indonesia"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PantaiPapuma"
+            android:parentActivityName=".Menu4">
+        </activity>
+        <activity android:name=".Bns"
+            android:parentActivityName=".Menu3">
+        </activity>
+        <activity android:name=".JatimPark2"
+            android:parentActivityName=".Menu3">
+        </activity>
+        <activity
+            android:name=".GunungKawi"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".Menu4"
+            android:parentActivityName=".DashBoard" />
+        <activity
+            android:name=".Menu3"
+            android:parentActivityName=".DashBoard" />
+        <activity
+            android:name=".Menu2"
+            android:parentActivityName=".DashBoard" />
+        <activity
+            android:name=".Menu"
+            android:parentActivityName=".DashBoard" />
+        <activity
+            android:name=".PantaiPandawa"
+            android:parentActivityName=".Menu4" />
+        <activity
+            android:name=".GunungSemeru"
+            android:parentActivityName=".Menu" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login" />
+        <activity android:name=".SplashScreen">
+            //launcher app
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            //navbar
+        </activity>
+        <activity android:name=".About" />
+        <activity android:name=".DashBoard" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

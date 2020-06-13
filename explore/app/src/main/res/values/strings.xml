@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tour Adventure</string>
+
+
+    <string-array name="tikets">
+        <item>Gunung Bromo</item>
+        <item>Gunung Kawi</item>
+        <item>Pantai Pandawa</item>
+        <item>Pantai Papuma</item>
+        <item>Jatim Park2</item>
+        <item>Batu Night Spectaculer</item>
+    </string-array>
+</resources>

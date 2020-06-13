@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".About">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@color/bg_screen3"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_height="640dp"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="13dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kata “wisata” tentu sudah tidak asing lagi saat ini, namun sebenarnya apa pengertian wisata?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/kegiatan"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Menurut Kamus Besar Bahasa Indonesia, pengertian wisata adalah bepergian secara bersama-sama dengan tujuan untuk bersenang-senang, menambah pengetahuan, dan lain-lain. Selain itu juga dapat diartikan sebagai bertamasya atau piknik. Menurut pendapat saya sendiri, pengertian wisata adalah suatu kegiatan perjalanan atau aktifitas yang dapat menenangkan hati dan pikiran serta menyegarkan otak ."
+                android:textSize="17sp"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Bagaimana dengan pariwisata? Apa pengertian pariwisata?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/pancol"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Menurut Wikipedia, pengertian pariwisata adalah suatu kegiatan perjalanan yang dilakukan dengan tujuan liburan atau rekreasi. Menurut Undang-Undang, pariwisata adalah segala macam kegiatan wisata yang dilayani oleh pemerintah, masyarakat, atau pengusaha beserta dengan fasilitasnya. Menurut Robert McIntosh, pengertian pariwisata adalah gabungan dari interaksi antara pemerintah selaku tuan rumah pariwisata, bisnis, dan wisatawan.Menurut Richard Sihite, pengertian pariwisata adalah kegiatan perjalanan yang dilakukan dalam jangka waktu pendek atau sementara dengan tujuan selain mencari nafkah."
+                android:textSize="17sp"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Kata pariwisata yang berasal dari bahasa Sansekerta, terdiri dari 2 bagian yaitu “pari” dan “wisata”. Kata “pari” memiliki pengertian bersama, atau berkeliling, sedangkan kata “wisata” memiliki pengertian perjalanan. Bila digabungkan, pariwisata memiliki pengertian melakukan kegiatan perjalanan berkeliling meninggalkan tempat awal, menuju ke tempat yang lain."
+                android:textSize="17sp"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menurut pendapat saya sendiri, pariwisata adalah sebuah industri hiburan, di mana orang atau sekelompok orang mengeluarkan uang untuk mendapatkan hiburan berupa perjalanan yang menyenangkan dan memuaskan sehingga dapat menghibur hati. Dengan berkembangnya jaman, periwisata sudah berubah dari sekedar kegiatan untuk mengusir kebosanan menjadi sebuah gaya hidup."
+                android:textSize="17sp"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Apa Itu Wisatawan?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/wisatawan"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Secara simpel, wisatawan adalah orang yang melakukan kegiatan wisata. Menurut IUOTO (International Union of Travel Organization), wisatawan adalah orang yang melakukan kunjungan selama lebih dari 24 jam di suatu tempat, dengan tujuan kunjungan untuk bersenang-senang, olahraga, agama, berlibur, belajar, kesehatan, dan berdagang."
+                android:textSize="17sp"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Menurut pendapat saya, wisatawan jaman dahulu dan jaman sekarang mempunyai motivasi yang sangat berbeda, wisatawan jaman dahulu lebih bermotivasi melakukan perjalanan dengan tujuan untuk perdagangan, politik, dan kepentingan agama. Pada jaman modern ini, motivasi wisatawan melakukan perjalanan sudah berubah ke arah yang lain, yaitu untuk berlibur dan berekreasi."
+                android:textSize="17sp"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Pengertian Tempat Wisata?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/liburan"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Secara simpel, pengertian tempat wisata adalah suatu tempat yang digunakan untuk melakukan kegiatan wisata. Tempat wisata dapat berupa tempat wisata alam dan bangunan. Tempat wisata alam dapat berupa pantai, gunung, dan lain-lain, sedangkan tempat wisata bangunan dapat berupa peninggalan sejarah, museum, dan lain-lain. Menurut pemerintah, tempat wisata adalah tempat-tempat yang mempunyai nilai budaya."
+                android:textSize="17sp"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Menurut saya sendiri, pengertian tempat wisata adalah suatu tempat yang memiliki daya tarik yang dapat berupa keunikan, keindahan, sejarah, atau nilai lainnya sehingga didatangi banyak wisatawan."
+                android:textSize="17sp"
+                android:textStyle="italic"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Nah, menurut anda, apa pengertian wisata?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textColor="@color/dot_dark_screen1"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

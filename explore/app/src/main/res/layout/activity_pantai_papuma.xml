@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PantaiPapuma">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/papuma"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Pantai Papuma terletak di Desa Lojejer, Kecamatan Wuluhan, Kabupaten Jember. Perjalanan dari kota Jember ke Pantai Papuma bisa memakan waktu yang cukup lama, sehingga disarankan bagi Anda untuk menginap semalam di sini. Pihak pengelola telah menyediakan beberapa penginapan dan cottage dengan harga yang cukup terjangkau, sekitar 150.000 – 450.000 Rupiah per malam. Harga tiket masuk ke pantai ini sendiri 5.000 sampai 7.000 Rupiah."
+        android:textSize="15sp"
+        android:textStyle=""
+        android:layout_margin="10dp"
+        android:textColor="@color/tonas"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Pantai Papuma memiliki pemandangan yang sangat indah. Perpaduan antara pasir putih serta batu karang yang menyebar di tepi pantai. Salah satu ciri khas dari Pantai Papuma adalah tujuh karang besar yang menjulang di pantai. "
+        android:textSize="15sp"
+        android:textStyle=""
+        android:layout_margin="10dp"
+        android:textColor="@color/tonas"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Ukurannya yang besar membuat karang-karang ini menyerupai sebuah pulau. Ketujuh karang ini juga memiliki nama masing-masing. Di sini Anda bisa merasakan sensasi terpaan ombak dari atas karang. Pantai ini juga sering dijadikan sebagai lokasi foto prewedding ataupun landscape oleh para fotografer dari berbagai kota.
+"
+            android:textSize="15sp"
+            android:textStyle=""
+            android:layout_margin="10dp"
+            android:textColor="@color/tonas"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TIKET"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <ImageView
+        android:onClick="pass"
+        android:id="@+id/tiket"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/ticket">
+
+    </ImageView>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
